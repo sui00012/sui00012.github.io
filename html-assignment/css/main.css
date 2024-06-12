@@ -6,5 +6,8 @@ header,footer{
     background-color: aqua;
 }
 .site-title {
-    color: bisque;
+    color: rgb(231, 132, 12);
+}
+#my-image{
+    box-shadow: 0 0 2px 1px black;
 }
