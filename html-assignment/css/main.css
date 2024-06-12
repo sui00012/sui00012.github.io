@@ -18,19 +18,19 @@ header,footer{
     background-color: green;
     list-style-type:square;
 }
-a {
+.link {
     text-decoration: none;
     background-color:midnightblue;
     border: 1px solid darkcyan;
     padding:8px 12px;
     display: inline-block;
 }
-a {
+.link {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-a:hover,
-a:focus {
+.link:hover,
+.link:focus {
     background-color: lightpink;
 }
