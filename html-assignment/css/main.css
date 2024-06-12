@@ -11,9 +11,10 @@ header,footer{
 #my-image{
     box-shadow: 0 0 2px 1px black;
 }
-.hobby-list {
+.hobby-list li:nth-child(even){
     list-style-type: square;
 }
 .hobby-list li:nth-child(odd) {
     background-color: green;
+    list-style-type:square;
 }
