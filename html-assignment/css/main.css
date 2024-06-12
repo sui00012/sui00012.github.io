@@ -6,8 +6,11 @@ header,footer{
     background-color: aqua;
 }
 .site-title {
-    color:brown;
+    color: brown;
 }
 #my-image{
     box-shadow: 0 0 2px 1px black;
+}
+.hobby-list {
+    list-style-type: square;
 }
