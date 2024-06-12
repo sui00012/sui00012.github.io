@@ -12,6 +12,8 @@ header,footer{
     box-shadow: 0 0 2px 1px black;
 }
 .hobby-list li:nth-child(odd) {
-    list-style-type: square;
     background-color: green;
+}
+.hobby-list {
+    list-style-type: square;
 }
