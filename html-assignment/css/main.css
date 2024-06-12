@@ -18,3 +18,19 @@ header,footer{
     background-color: green;
     list-style-type:square;
 }
+nav a {
+    text-decoration: none;
+    background-color:midnightblue;
+    border: 1px solid darkcyan;
+    padding:8px 12px;
+    display: inline-block;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav a:hover,
+nav a:focus {
+    background-color: lightpink;
+}
