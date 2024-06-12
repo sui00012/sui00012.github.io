@@ -13,4 +13,8 @@ header,footer{
 }
 .hobby-list {
     list-style-type: square;
+    
+}
+.hobby-list li:nth-child(odd) {
+    background-color: greenyellow;
 }
