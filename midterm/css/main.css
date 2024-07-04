@@ -1,0 +1,121 @@
+body {
+    background-color:rgb(202, 224, 238);
+    width: 103%;
+    max-width: 1100px;
+    margin:auto;
+    padding: 20px;
+    background-color: #aad4cf;
+}
+/* Edit header */
+header {
+    
+    color: white;
+    font-family: sans-serif;
+    padding: 200px 0px 200px 0px;
+    text-align: center;
+    background-image: url("../images/lone-starfish-wide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+/* Edit three navigations tag */
+
+.container {
+    background-color:rgb(202, 224, 238);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navigation-wrapper {
+    display: flex; 
+    justify-content: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+}
+
+.nav-list li a {
+    font-size: larger;
+    display: block;
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-left: 150PX;
+    margin-right: 150PX;
+}
+
+/* Edit image of content */
+
+.two .image-content{
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
+/* Edit content */
+
+.two {
+    font-size: larger;
+    margin: 0 auto;
+    background-color:rgb(202, 224, 238) ;
+    padding: 20px;
+}
+
+/* Edit fact */
+
+.three {
+    font-size: larger;
+    background-color:rgb(202, 224, 238) ;
+    padding: 20px;
+    clear: left;
+}
+
+/* Edit form */
+
+.four {
+    background-color:rgb(202, 224, 238) ;
+    padding: 20px;
+    clear: left;
+    border: 1px black;
+    padding: 10px;
+}
+
+.form {
+    display: flex; 
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.form label {
+    margin-bottom: 8px; 
+    font-weight: bold; 
+    display: block; 
+}
+
+.form input {
+    padding: 18px;
+    margin-bottom: 10px;  
+    box-sizing:content-box; 
+    width: 1000px;
+}
+
+button[type="submit"] {
+    display: block;
+    margin-top: 10px; 
+}
+
+.four,
+.five {
+    background-color:rgb(202, 224, 238) ;
+    border: 1px solid black; 
+}
+
+
+
+
+
